@@ -11,3 +11,7 @@ main {
 	align-items: center;
 	gap: 20px;
 }
+
+.active {
+	background-color: lightgreen;
+}

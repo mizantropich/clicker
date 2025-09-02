@@ -12,8 +12,15 @@
 			<h1>Кликер</h1>
     </header>
     <main>
-        <button id="clickerButton">+1</button>
-				<p>Количество кликов: <span id="clickCount"></span></p>
+				<div>
+					<button id="clickerButton">+1</button>
+					<button id="autoButton">AUTO +<span id="autoClickerPower"></span>/s</button>
+				</div>
+				<button id="upgradeButton">Улучшить <span id="upgradeCost"></span></button>
+				<div>
+					<p>Количество кликов: <span id="clickCount"></span></p>
+					<p>Рекорд: <span id="record"></span></p>
+				</div>
 				<button id="resetButton">Сбросить</button>
     </main>
     <script src="script.js"></script>
